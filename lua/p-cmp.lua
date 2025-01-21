@@ -38,10 +38,10 @@ cmp.setup({
         return require('cmp.types').lsp.CompletionItemKind[entry:get_kind()] ~= 'Text'
       end
     },
-    { name = 'vsnip' },     -- For vsnip users.
-    { name = 'luasnip' },   -- For luasnip users.
+    { name = 'vsnip' },   -- For vsnip users.
+    { name = 'luasnip' }, -- For luasnip users.
     { name = 'ultisnips' }, -- For ultisnips users.
-    { name = 'snippy' },    -- For snippy users.
+    { name = 'snippy' },  -- For snippy users.
   }, {
     { name = 'buffer' },
   }),

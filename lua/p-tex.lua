@@ -4,7 +4,7 @@
 --vim.g.vimtex_view_skim_activate = 1  -- Value 1 allows change focus to skim after command `:VimtexView` is given
 vim.cmd [[
 let g:tex_flavor = 'latex'
-let g:vimtex_view_method = 'zathura_simple'
+let g:vimtex_view_method = 'sioyek'
 let g:vimtex_quickfix_ignore_filters = [
       \ 'Underfull \\hbox (badness [0-9]*) in paragraph at lines',
       \ 'Overfull \\hbox ([0-9]*.[0-9]*pt too wide) in paragraph at lines',

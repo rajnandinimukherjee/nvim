@@ -4,7 +4,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = false
 
 require("nvim-tree").setup({
-  sort_by = "case_sensitive",
+  sort_by = "extension",
   actions = {
     open_file = { quit_on_open = true }
   },
@@ -15,7 +15,7 @@ require("nvim-tree").setup({
   filters = {
     dotfiles = true,
     git_clean = false,
-    custom = { '^.git$', '^node_modules$' }
+    custom = { '^.git$', '^node_modules$', '^.aux$' }
   },
   git = {
     enable = true

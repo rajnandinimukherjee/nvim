@@ -49,6 +49,7 @@ return require('packer').startup(function(use)
   use 'onsails/lspkind-nvim'
   use 'stsewd/isort.nvim'
   use 'lervag/vimtex'
+  use 'averms/black-nvim'
   use {
     'goolord/alpha-nvim',
     requires = { 'nvim-tree/nvim-web-devicons' },
